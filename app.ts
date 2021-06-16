@@ -2,7 +2,7 @@ import express from 'express';
 import { spawn } from 'child_process';
 const app = express();
 const jsonParser = express.json();
-const PORT = 4000;
+const PORT: string | number = process.env.PORT || 5000;
 
 //crypto-CLI hashTypes
 enum hashTypes { sha1 = "sha1", sha512 = "sha512", md4 = "md4", md5 = "md5" }
