@@ -1,0 +1,8 @@
+{
+  "modules": {
+    "crypto-cli": "1.0.0"
+  },
+  "nativeModules": {
+    "exec": "1.0.0"
+  }
+}
