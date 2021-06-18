@@ -11,7 +11,7 @@ export async function executeCommand(module: string, command: string, flag: stri
          }
          else {
            //linux execute code 
-           exec = spawn(`${process.cwd()}/cli-modules/${module}/${module}`,[command, flag],);
+           exec = spawn(`../cli-modules/${module}/${module}`,[command, flag],);
          }
         exec.stdout.on('data', (data) => { 
           resolve(data.toString().replace(/[\n\r]/g, ""));
