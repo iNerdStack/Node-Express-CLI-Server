@@ -1,2 +1,2 @@
-# Node-Express-CLI-Server
-A simple server to test and review use of cli dependencies in backend application
+# Paravon + Node-Express
+A simple test case scenario for paravon in Express JS. This is to test independent cli dependencies in backend application.
